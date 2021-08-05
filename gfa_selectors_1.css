@@ -1,0 +1,28 @@
+.container{
+    width: 200px;
+    height: fit-content;
+}
+
+.asteroid{
+    width: 200px;
+    height: fit-content;
+    font-weight: bold;
+}
+
+.big{
+    color: blue;
+}
+
+.container .asteroid{
+    border: 1px solid green;
+}
+
+.asteroid.big{
+    font-weight: normal;
+    background-color: yellow;
+} 
+
+.asteroid.b329.big{
+    font-weight: bold;
+    background-color: white;
+}
